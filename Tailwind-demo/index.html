@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind Demo</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="../bootstrap-demo/index.html" rel="stylesheet">
+</head>
+<body class="bg-gray-100 p-8">
+    <div class="max-w-6xl mx-auto">
+        <div class="flex justify-between items-center mb-8">
+            <h1 class="text-3xl font-bold text-indigo-700">Tailwind CSS Demo</h1>
+            <a href="../bootstrap-demo/index.html" class="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 transition-colors">
+                ← Back to Bootstrap
+            </a>
+        </div>
+        
+        <!-- Responsive card grid -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <!-- Card 1 -->
+            <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300">
+                <img src="https://source.unsplash.com/random/600x400/?nature" alt="Nature" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <h2 class="text-xl font-bold text-gray-800 mb-2">Explore Nature</h2>
+                    <p class="text-gray-600 mb-4">Discover the beauty of the natural world around you with our guided tours.</p>
+                    <div class="flex justify-between items-center">
+                        <button class="bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-2 px-4 rounded transition-colors duration-300">
+                            Learn More
+                        </button>
+                        <a href="https://codesandbox.io/p/sandbox/react-new" target="_blank" class="text-sm text-indigo-500 hover:underline">
+                            Try React Demo →
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Card 2 -->
+            <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300">
+                <img src="https://source.unsplash.com/random/600x400/?technology" alt="Tech" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <h2 class="text-xl font-bold text-gray-800 mb-2">Tech Innovations</h2>
+                    <p class="text-gray-600 mb-4">Stay ahead with the latest in technology and innovation trends.</p>
+                    <button class="bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-2 px-4 rounded transition-colors duration-300">
+                        View Products
+                    </button>
+                </div>
+            </div>
+            
+            <!-- Card 3 -->
+            <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300">
+                <img src="https://source.unsplash.com/random/600x400/?food" alt="Food" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <h2 class="text-xl font-bold text-gray-800 mb-2">Culinary Delights</h2>
+                    <p class="text-gray-600 mb-4">Experience world-class cuisine from our award-winning chefs.</p>
+                    <div class="flex justify-between items-center">
+                        <button class="bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-2 px-4 rounded transition-colors duration-300">
+                            Book a Table
+                        </button>
+                        <a href="../bootstrap-demo/index.html" class="text-sm text-indigo-500 hover:underline">
+                            ← Bootstrap Demo
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
