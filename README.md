@@ -1,7 +1,8 @@
 CSC 4035 Lab 5: UI Frameworks in Practice
 Group Members
-[Your Name]
-[Partner's Name (if applicable)]
+WILAS KONDOWE 2021502392
+MORRIS KUNDA 2021462668
+
 Project Links
 Bootstrap Demo
 Tailwind CSS Demo
